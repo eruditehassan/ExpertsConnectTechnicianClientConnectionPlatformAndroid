@@ -1,7 +1,6 @@
-package com.example.uberclone;
+package com.example.expertsconnect;
 
 import android.content.Intent;
-import android.print.PrinterId;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,15 +12,12 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
-import com.parse.Parse;
 import com.parse.ParseAnonymousUtils;
 import com.parse.ParseException;
 import com.parse.ParseInstallation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
-
-import java.time.temporal.UnsupportedTemporalTypeException;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -53,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             });
         }
         } else {
-            Toast.makeText(MainActivity.this, "Are you a driver or a passenger?", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Are you a Client or a Worker?", Toast.LENGTH_SHORT).show();
             return;
         }
 

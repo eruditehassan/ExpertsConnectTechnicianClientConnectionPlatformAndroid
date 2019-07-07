@@ -1,4 +1,4 @@
-package com.example.uberclone;
+package com.example.expertsconnect;
 
 import org.junit.Test;
 

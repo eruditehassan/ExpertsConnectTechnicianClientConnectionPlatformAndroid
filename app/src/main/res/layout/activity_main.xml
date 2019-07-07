@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/uber_image" />
+        app:srcCompat="@drawable/icon1" />
 
     <EditText
         android:id="@+id/edtUserName"
@@ -63,14 +63,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Passenger" />
+            android:text="Client" />
 
         <RadioButton
             android:id="@+id/rdbDriver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Driver" />
+            android:text="Expert" />
 
     </RadioGroup>
 
@@ -106,7 +106,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint="Are you a Driver or a Passenger?"
+        android:hint="Are you a Client or an Expert?"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
